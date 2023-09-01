@@ -1,7 +1,7 @@
 version: "3.7"
 
 services:
-  yuudachi:
+  bot:
     build:
       context: .
       dockerfile: apps/yuudachi/Dockerfile

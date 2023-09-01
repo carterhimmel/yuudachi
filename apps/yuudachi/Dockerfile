@@ -1,4 +1,4 @@
-FROM node:18-slim AS pruner
+FROM --platform=linux/amd64 node:18-slim AS pruner
 ENV NODE_ENV=production
 
 # Set working directory
@@ -7,7 +7,7 @@ RUN yarn global add turbo
 COPY . .
 RUN turbo prune --scope=yuudachi --docker
 
-FROM node:18-slim as builder
+FROM --platform=linux/amd64 node:18-slim as builder
 ENV NODE_ENV=production
 RUN apt update
 RUN apt install -y python3 g++ make libtool autoconf automake curl
