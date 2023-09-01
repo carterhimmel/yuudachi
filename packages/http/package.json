@@ -56,6 +56,7 @@
 		"eslint-formatter-pretty": "^5.0.0",
 		"prettier": "^3.0.2",
 		"reflect-metadata": "^0.1.13",
+		"tsconfig": "workspace:^",
 		"tsx": "^3.12.7",
 		"typescript": "^5.2.2"
 	},

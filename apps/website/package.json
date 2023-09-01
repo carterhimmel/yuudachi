@@ -52,6 +52,7 @@
 		"happy-dom": "^10.11.0",
 		"prettier": "^3.0.2",
 		"prettier-plugin-tailwindcss": "^0.5.3",
+		"tsconfig": "workspace:^",
 		"typescript": "^5.2.2",
 		"unocss": "^0.55.3",
 		"vitest": "^0.34.3"

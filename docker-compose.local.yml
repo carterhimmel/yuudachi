@@ -1,6 +1,12 @@
 version: "3.7"
 
 services:
+  yuudachi:
+    build:
+      context: .
+      dockerfile: apps/yuudachi/Dockerfile
+    env_file: apps/yuudachi/.env
+
   postgres:
     environment:
       POSTGRES_USER: "yuudachi"

@@ -15,7 +15,8 @@
 		"start:dev": "npm run build && npm run dev",
 		"dev": "env-cmd node --enable-source-maps dist/index.js",
 		"deploy:commands": "env-cmd node --enable-source-maps dist/deploy.js",
-		"migrate": "env-cmd ley"
+		"migrate": "env-cmd ley",
+		"bundle": "spack"
 	},
 	"type": "module",
 	"directories": {
@@ -71,6 +72,7 @@
 		"eslint-formatter-pretty": "^5.0.0",
 		"ley": "^0.8.1",
 		"prettier": "^3.0.2",
+		"tsconfig": "workspace:^",
 		"type-fest": "^4.3.0",
 		"typescript": "^5.2.2"
 	},

@@ -1,0 +1,11 @@
+{
+	"name": "tsconfig",
+	"version": "0.1.0",
+	"description": "Base tsconfig files",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Naval-Base/yuudachi",
+		"directory": "packages/tsconfig"
+	}
+}

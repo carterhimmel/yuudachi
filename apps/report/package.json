@@ -63,6 +63,7 @@
 		"happy-dom": "^10.11.0",
 		"mdast": "^3.0.0",
 		"prettier": "^3.0.2",
+		"tsconfig": "workspace:^",
 		"typescript": "^5.2.2",
 		"unocss": "^0.55.3",
 		"vitest": "^0.34.3"

@@ -3,10 +3,10 @@
 	"version": "0.0.0",
 	"description": "",
 	"scripts": {
-		"build": "yarn workspaces foreach run build",
-		"test": "yarn workspaces foreach run test",
-		"lint": "yarn workspaces foreach run lint",
-		"format": "yarn workspaces foreach run format",
+		"build": "turbo run build",
+		"test": "turbo run test",
+		"lint": "turbo run lint --parallel",
+		"format": "turbo run format --parallel",
 		"fmt": "yarn format",
 		"postinstall": "is-ci || husky install",
 		"update": "yarn upgrade-interactive"
@@ -20,6 +20,7 @@
 		"husky": "^8.0.3",
 		"is-ci": "^3.0.1",
 		"lint-staged": "^14.0.1",
+		"turbo": "^1.10.13",
 		"typescript": "^5.2.2",
 		"vercel": "^32.1.0"
 	},
